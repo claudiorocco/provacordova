@@ -38,10 +38,15 @@
     <body>
         <div class="app">
             <h1>ProvaCordova</h1>
-            <div class="form">
+            <div id="divInput" style="display:block" class="form">
             	<input type="TEXT" id="isbn" name="isbn" value=""/>
                 <input type="button" id="getIsbnBtn" value="Cerca Isbn" />
             </div> 
+            <div id="divDisplay" style="display:none">
+            	<div id="DisIsbn13"></div>
+            	<div id="DisTitolo"></div>
+                <input type="button" id="NextBtn" value="Prossimo" />
+            </div>
         </div>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
